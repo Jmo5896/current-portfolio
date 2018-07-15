@@ -1,0 +1,25 @@
+.bg {
+    background-image: url(../images/profile\ backround.jpg);
+}
+
+.portPics {
+    width: 80%;
+    height: 80%;
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+.carousel-cell {
+    width: 66%;
+    height: 200px;
+    margin-right: 10px;
+    background: #8C8;
+    border-radius: 5px;
+    counter-increment: gallery-cell;
+  }
