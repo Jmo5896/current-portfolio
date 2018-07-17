@@ -50,51 +50,68 @@
             <div class="p-3 mb-2 bg-white text-dark">
               <div class="row">                    
                 <div class="col-md-12">
-                  <h2>My Projects</h2>
+                  <h2>My Projects (click for more information)</h2>
                 </div>                          
                 <div class="flex-container">
-                  <a href = 'https://secure-wildwood-86684.herokuapp.com/' class="card pieces">
+                  <!-- modal body book -->
+                  <a type="button" data-toggle="modal" data-target="#bodyBook" class="card pieces">
                     <img class = 'portPics rounded' src="./assets/images/technics-q-c-640-480-1.jpg">
                     <div class="card-img-overlay text-white">
                       <h5 class="card-title">Body Book</h5>   
                     </div>
-                  </a>               
+                  </a>     
+                  <!-- modal body book -->
+
                   <!-- <div class="col-md-4">
                     <a href = ''><img class = 'portPics rounded' src="./assets/images/technics-q-c-640-480-2.jpg"></a>
                     <div class="card-img-overlay text-white">
                       <h5 class="card-title">Trivia Game</h5>   
                     </div>
                   </div> -->
-                  <a href = 'https://jmo5896.github.io/Train-Scheduler/' class="card pieces">
+                  
+                  <!-- modal Train Scheduler -->
+                  <a type="button" data-toggle="modal" data-target="#trainSheduler" class="card pieces">
                     <img class = 'portPics rounded' src="./assets/images/technics-q-c-640-480-5.jpg">
                     <div class="card-img-overlay text-white">
                       <h5 class="card-title">Train Scheduler</h5>   
                     </div>                        
                   </a>
-                  <a href = 'https://jmo5896.github.io/GifTastic/' class="card pieces">
+                  <!-- modal Train Scheduler -->
+
+                  <!-- modal gif tastic -->
+                  <a type="button" data-toggle="modal" data-target="#gifTastic" class="card pieces">
                     <img class = 'portPics rounded' src="./assets/images/technics-q-c-640-480-9.jpg">
                     <div class="card-img-overlay text-white">
                       <h5 class="card-title">GifTastic</h5>   
                     </div>                        
                   </a>
-                  <a href = 'https://jmo5896.github.io/unit-4-game/' class="card pieces">
+                  <!-- modal gif tastic -->
+
+                  <!-- modal Crystal Game-->
+                  <a type="button" data-toggle="modal" data-target="#crystalGame" class="card pieces">
                     <img class = 'portPics rounded' src="./assets/images/technics-q-c-640-480-7.jpg">
                     <div class="card-img-overlay">
                       <h5 class="card-title text-white">Crystal Game</h5>   
                     </div>                        
                   </a>
+                  <!-- modal Crystal Game-->
+
                   <!-- <div class="col-md-4">
                     <a href = 'https://jmo5896.github.io/Word-Guess-Game/'><img class = 'portPics rounded' src="./assets/images/technics-q-c-640-480-7.jpg"></a>
                     <div class="card-img-overlay">
                       <h5 class="card-title text-white">Hangman</h5>   
                     </div>                        
-                  </div> -->            
-                  <a href = 'https://jmo5896.github.io/Psychic-Game/' class="card pieces">
+                  </div> -->   
+
+                  <!-- modal psychic game -->
+                  <a type="button" data-toggle="modal" data-target="#psychicGame" class="card pieces">
                     <img class = 'portPics rounded' src="./assets/images/technics-q-c-640-480-7.jpg">
                     <div class="card-img-overlay">
-                      <h5 class="card-title text-white">Psychic-Game</h5>   
+                      <h5 class="card-title text-white">Psychic Game</h5>   
                     </div>
                   </a>
+                  <!-- modal psychic game -->
+
                 </div>  
               </div>  
             </div>    
@@ -156,6 +173,164 @@
     </div>
     <!-- Carousel -->
     
+    <!-- Modal bodyBook-->
+    <div class="modal fade" id="bodyBook" tabindex="-1" role="dialog" aria-labelledby="bodyBookTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="bodyBookTitle"><a href = 'https://secure-wildwood-86684.herokuapp.com/'>Body Book</a></h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                  </button>
+                  </div>
+                  <div class="modal-body">
+                      <p>This is one of my first full-stack projects.  My team and I wanted to build a place where you could store medical information that is important to have in an emergency situation but may be hard to recall.</p>
+                      <p>In this project we utilized the following languages, libraries, and frameworks:</p>
+                      <ul>
+                        <li>HTML</li>
+                        <li>Materialize</li>
+                        <li>Handlebars</li>
+                        <li>JavaScript</li>
+                        <li>jQuery</li>
+                        <li>Node.js</li>
+                        <li>mySQL</li>
+                        <li>Sequelize</li>
+                        <li>PassPort.js</li>
+                      </ul>
+                  </div>
+                  <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal bodyBook-->
+
+     <!-- Modal Train Scheduler-->
+     <div class="modal fade" id="trainSheduler" tabindex="-1" role="dialog" aria-labelledby="trainShedulerTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="trainShedulerTitle">Modal title</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                  </button>
+                  </div>
+                  <div class="modal-body">
+                      <a href = 'https://jmo5896.github.io/Train-Scheduler/'>Train Scheduler</a>
+                  </div>
+                  <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Train Scheduler-->
+
+    <!-- Modal gif tastic-->
+    <div class="modal fade" id="gifTastic" tabindex="-1" role="dialog" aria-labelledby="gifTasticTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="gifTasticTitle">Modal title</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                  </button>
+                  </div>
+                  <div class="modal-body">
+                      <a href = 'https://jmo5896.github.io/GifTastic/'>Gif Tastic</a>
+                  </div>
+                  <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal gif tastic--> 
+
+    <!-- Modal crystal game-->
+    <div class="modal fade" id="crystalGame" tabindex="-1" role="dialog" aria-labelledby="crystalGameTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="crystalGameTitle">Modal title</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                  </button>
+                  </div>
+                  <div class="modal-body">
+                      <a href = 'https://jmo5896.github.io/unit-4-game/'>Crystal Game</a>
+                  </div>
+                  <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal crystal game-->   
+
+    <!-- Modal psychic game-->
+    <div class="modal fade" id="psychicGame" tabindex="-1" role="dialog" aria-labelledby="psychicGameTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="psychicGameTitle">Modal title</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                  </button>
+                  </div>
+                  <div class="modal-body">
+                      <a href = 'https://jmo5896.github.io/Psychic-Game/'>Psychic Game</a>
+                  </div>
+                  <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal psychic game-->   
+
+    <!-- Modal -->
+    <div class="modal fade" id="" tabindex="-1" role="dialog" aria-labelledby="bodyBookTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="bodyBookTitle">Modal title</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                  </button>
+                  </div>
+                  <div class="modal-body">
+                      <a href = 'https://secure-wildwood-86684.herokuapp.com/'>body book</a>
+                  </div>
+                  <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->   
+
+    <!-- Modal -->
+    <div class="modal fade" id="" tabindex="-1" role="dialog" aria-labelledby="bodyBookTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="bodyBookTitle">Modal title</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                  </button>
+                  </div>
+                  <div class="modal-body">
+                      <a href = 'https://secure-wildwood-86684.herokuapp.com/'>body book</a>
+                  </div>
+                  <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->   
 
    <footer><h2>footer</h2></footer>
 

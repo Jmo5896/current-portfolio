@@ -76,3 +76,7 @@ footer {
 h2 {
     text-align: center;
 }
+
+.modal-body {
+    color: black;
+}
