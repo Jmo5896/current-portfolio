@@ -32,7 +32,15 @@ footer {
 
 .carousel-cell.is-selected {
     opacity: 1;
-  }
+}
+
+.flickity-page-dots {
+    bottom: 0px;
+}
+
+.flickity-page-dots .dot.is-selected {
+    background: #07557c;
+}
 
 .symbols {
     height: 75px;
