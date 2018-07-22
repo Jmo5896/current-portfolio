@@ -1,6 +1,8 @@
 /* class modifications */
 .bg {
-    /* background-image: url(../images/profile\ backround.jpg); */
+    background-image: url(../images/dark-vintage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: #222629;
 }
 
