@@ -1,19 +1,12 @@
+/* class modifications */
 .bg {
-    background-image: url(../images/profile\ backround.jpg);
+    /* background-image: url(../images/profile\ backround.jpg); */
+    background-color: #222629;
 }
 
 .portPics {
     width: 250px;
     height: 200px;
-}
-
-header {
-    text-align: center;
-}
-
-footer {
-    text-align: center;
-    margin-top: 3%;
 }
 
 .aboutMe {
@@ -24,7 +17,7 @@ footer {
     width: 80%;
     height: 600px;
     margin-right: 10px;
-    background: white;
+    background: #474a4f;
     border-radius: 5px;
     /* counter-increment: gallery-cell; */
     opacity: .5;
@@ -43,11 +36,11 @@ footer {
     height: 12px;
     opacity: 1;
     background: transparent;
-    border: 2px solid #07557c;
+    border: 2px solid #618930;
 }
 
 .flickity-page-dots .dot.is-selected {
-    background: #07557c;
+    background: #618930;
 }
 
 .symbols {
@@ -73,10 +66,75 @@ footer {
     flex-wrap: wrap;
 }
 
+.close {
+    color: #87c232;
+}
+
+.close:hover {
+    color: #618930;
+}
+
+.modal-content {
+    background-color: #6a6e71;
+}
+
+.modal-body {
+    color: whitesmoke;
+}
+
+.btn-primary {
+    border-color: #87c232;
+    background-color: #87c232;
+    color: #222629;
+}
+
+.btn-primary:hover {
+    border-color: #618930;
+    background-color: #618930;
+    color: #474a4f;
+}
+
+.container {
+    background-color: #474a4f;
+    color: whitesmoke;
+}
+/* class modifications */
+
+/* id modifications */
+
+/* id modifications */
+
+/* html tag modifications */
+
+header {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin-top: 3%;
+}
+
+h1 {
+    color: #87c232;
+}
+
 h2 {
     text-align: center;
 }
 
-.modal-body {
-    color: black;
+h5 {
+    color: #87c232;
 }
+
+a {
+    color: #87c232;
+}
+
+a:hover {
+    color: #618930;
+}
+/* html tag modifications */
+
+
+
