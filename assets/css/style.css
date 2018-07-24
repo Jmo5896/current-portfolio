@@ -112,6 +112,22 @@
 .card:hover {
     opacity: 1;
 }
+
+
+.flickity-button {
+    background-image: url(../images/dark-vintage.jpg);
+    opacity: .5;
+  }
+  .flickity-button:hover {
+    background-image: url(../images/dark-vintage.jpg);
+    opacity: 1;
+  }
+  /* icon color */
+  .flickity-button-icon {
+    fill: #618930;
+    
+  }
+
 /* class modifications */
 
 /* id modifications */
