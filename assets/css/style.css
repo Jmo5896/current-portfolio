@@ -19,14 +19,15 @@
     width: 80%;
     height: 600px;
     margin-right: 10px;
-    background: #474a4f;
+    
     border-radius: 5px;
-    /* counter-increment: gallery-cell; */
+    background-color: #618930;
     opacity: .5;
 }
 
 .carousel-cell.is-selected {
     opacity: 1;
+    background-color: #474a4f;
 }
 
 .flickity-page-dots {
@@ -97,8 +98,19 @@
 }
 
 .container {
-    background-color: #474a4f;
     color: whitesmoke;
+}
+
+.card {
+    background-color: #474a4f;
+    text-align: center;
+    margin: 7px;
+    border-color: transparent;
+    opacity: .75;
+}
+
+.card:hover {
+    opacity: 1;
 }
 /* class modifications */
 
