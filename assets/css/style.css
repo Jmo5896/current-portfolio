@@ -131,3 +131,32 @@ h2 {
     text-align: center;
 }
 /* html tag modifications */
+
+.contactLogos:hover {
+    animation-name: spin;
+    animation-duration: 750ms;
+    animation-timing-function: linear;
+}
+.contactLogos:not(:hover) {
+    animation-name: spin2;
+    animation-duration: 750ms;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes spin {
+    0% {
+        transform:rotate(0deg);
+    }
+    100% {
+        transform:rotate(360deg);
+    }
+}
+@keyframes spin2 {
+    0% {
+        transform:rotate(0deg);
+    }
+    100% {
+        transform:rotate(-360deg);
+    }
+}
