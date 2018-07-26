@@ -1,106 +1,24 @@
 /* class modifications */
+.aboutMe {
+    text-indent: 50px;
+    text-align: justify;
+}
 .bg {
     background-image: url(../images/dark-vintage.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #222629;
 }
-
-.portPics {
-    width: 250px;
-    height: 200px;
-}
-
-.aboutMe {
-    text-indent: 50px;
-}
-
-.carousel-cell {
-    width: 80%;
-    height: 600px;
-    margin-right: 10px;
-    
-    border-radius: 5px;
-    background-color: #618930;
-    opacity: .5;
-}
-
-.carousel-cell.is-selected {
-    opacity: 1;
-    background-color: #474a4f;
-}
-
-.flickity-page-dots {
-    bottom: 0px;
-}
-
-.flickity-page-dots .dot {
-    width: 12px;
-    height: 12px;
-    opacity: 1;
-    background: transparent;
-    border: 2px solid #618930;
-}
-
-.flickity-page-dots .dot.is-selected {
-    background: #618930;
-}
-
-.symbols {
-    height: 75px;
-    width: 225px;
-    margin: 15px;
-}
-
-.symbols2 {
-    height: 150px;
-    width: 150px;
-    margin: 15px;
-}
-
-.pieces {
-    height: 200px;
-    width: 250px;
-    margin: 10px;
-}
-
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.close {
-    color: #87c232;
-}
-
-.close:hover {
-    color: #618930;
-}
-
-.modal-content {
-    background-color: #6a6e71;
-}
-
-.modal-body {
-    color: whitesmoke;
-}
-
 .btn-primary {
     border-color: #87c232;
     background-color: #87c232;
     color: #222629;
 }
-
 .btn-primary:hover {
     border-color: #618930;
     background-color: #618930;
     color: #474a4f;
 }
-
-.container {
-    color: whitesmoke;
-}
-
 .card {
     background-color: #474a4f;
     text-align: center;
@@ -108,63 +26,108 @@
     border-color: transparent;
     opacity: .75;
 }
-
 .card:hover {
     opacity: 1;
 }
+.card-title {
+    color: #87c232;
+}
+.carousel-cell {
+    width: 80%;
+    height: 600px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: #618930;
+    opacity: .5;
+}
+.carousel-cell.is-selected {
+    opacity: 1;
+    background-color: #474a4f;
+}
+.close {
+    color: #87c232;
+}
+.close:hover {
+    color: #618930;
+}
+.contactLogos{
 
-
+}
+.container {
+    color: whitesmoke;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
 .flickity-button {
     background-image: url(../images/dark-vintage.jpg);
     opacity: .5;
-  }
-  .flickity-button:hover {
-    background-image: url(../images/dark-vintage.jpg);
+}
+.flickity-button:hover {
+background-image: url(../images/dark-vintage.jpg);
+opacity: 1;
+}
+.flickity-button-icon {
+fill: #618930;
+}
+.flickity-page-dots {
+    bottom: 0px;
+}
+.flickity-page-dots .dot {
+    width: 12px;
+    height: 12px;
     opacity: 1;
-  }
-  /* icon color */
-  .flickity-button-icon {
-    fill: #618930;
-    
-  }
-
+    background: transparent;
+    border: 2px solid #618930;
+}
+.flickity-page-dots .dot.is-selected {
+    background: #618930;
+}
+.modal-content {
+    background-color: #6a6e71;
+}
+.modal-body {
+    color: whitesmoke;
+}
+.pieces {
+    height: 200px;
+    width: 250px;
+    margin: 10px;
+}
+.portPics {
+    width: 250px;
+    height: 200px;
+}
+.symbols {
+    height: 75px;
+    width: 225px;
+    margin: 15px;
+}
+.symbols2 {
+    height: 150px;
+    width: 150px;
+    margin: 15px;
+}
 /* class modifications */
 
-/* id modifications */
-
-/* id modifications */
-
 /* html tag modifications */
-
-header {
-    text-align: center;
-}
-
-footer {
-    text-align: center;
-    margin-top: 3%;
-}
-
-h1 {
-    color: #87c232;
-}
-
-h2 {
-    text-align: center;
-}
-
-h5 {
-    color: #87c232;
-}
-
 a {
     color: #87c232;
 }
-
 a:hover {
     color: #618930;
 }
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+    text-align: center;
+}
+h1 {
+    color: #87c232;
+}
+h2 {
+    text-align: center;
+}
 /* html tag modifications */
-
-
-
