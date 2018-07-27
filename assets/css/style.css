@@ -22,7 +22,6 @@
 .card {
     background-color: #474a4f;
     text-align: center;
-    margin: 7px;
     border-color: transparent;
     opacity: .75;
 }
@@ -34,7 +33,7 @@
 }
 .carousel-cell {
     width: 80%;
-    height: 600px;
+    
     margin-right: 10px;
     border-radius: 5px;
     background-color: #618930;
@@ -50,9 +49,36 @@
 .close:hover {
     color: #618930;
 }
-.contactLogos{
-
+/* button spin */
+.contactLogos:hover {
+    animation-name: spin;
+    animation-duration: 750ms;
+    animation-timing-function: linear;
 }
+.contactLogos:not(:hover) {
+    animation-name: spin2;
+    animation-duration: 750ms;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes spin {
+    0% {
+        transform:rotate(0deg);
+    }
+    100% {
+        transform:rotate(360deg);
+    }
+}
+@keyframes spin2 {
+    0% {
+        transform:rotate(0deg);
+    }
+    100% {
+        transform:rotate(-360deg);
+    }
+}
+/* button spin */
 .container {
     color: whitesmoke;
 }
@@ -90,24 +116,11 @@ fill: #618930;
 .modal-body {
     color: whitesmoke;
 }
-.pieces {
-    height: 200px;
-    width: 250px;
-    margin: 10px;
-}
-.portPics {
-    width: 250px;
-    height: 200px;
-}
-.symbols {
-    height: 75px;
-    width: 225px;
-    margin: 15px;
-}
+
 .symbols2 {
     height: 150px;
     width: 150px;
-    margin: 15px;
+    margin: 1vw;
 }
 /* class modifications */
 
@@ -132,31 +145,10 @@ h2 {
 }
 /* html tag modifications */
 
-.contactLogos:hover {
-    animation-name: spin;
-    animation-duration: 750ms;
-    animation-timing-function: linear;
-}
-.contactLogos:not(:hover) {
-    animation-name: spin2;
-    animation-duration: 750ms;
-    animation-timing-function: linear;
-    animation-direction: alternate;
-}
-
-@keyframes spin {
-    0% {
-        transform:rotate(0deg);
-    }
-    100% {
-        transform:rotate(360deg);
+/* break points */
+@media only screen and (min-width: 800px) {
+    .carousel-cell {
+        height: 600px;
     }
 }
-@keyframes spin2 {
-    0% {
-        transform:rotate(0deg);
-    }
-    100% {
-        transform:rotate(-360deg);
-    }
-}
+/* break points */
