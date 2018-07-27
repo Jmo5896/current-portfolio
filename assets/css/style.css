@@ -1,7 +1,7 @@
 /* class modifications */
 .aboutMe {
-    text-indent: 50px;
-    text-align: justify;
+    
+    text-align: center;
 }
 .bg {
     background-image: url(../images/dark-vintage.jpg);
@@ -50,6 +50,9 @@
     color: #618930;
 }
 /* button spin */
+.contactLogos {
+    margin: 1vw;
+}
 .contactLogos:hover {
     animation-name: spin;
     animation-duration: 750ms;
@@ -83,6 +86,8 @@
     color: whitesmoke;
 }
 .flex-container {
+    text-align: center;
+    color: whitesmoke;
     display: flex;
     flex-wrap: wrap;
 }
@@ -149,6 +154,10 @@ h2 {
 @media only screen and (min-width: 800px) {
     .carousel-cell {
         height: 600px;
+    }
+    .aboutMe {
+        text-align: justify;
+        text-indent: 50px;
     }
 }
 /* break points */
