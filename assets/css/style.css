@@ -43,6 +43,17 @@
     opacity: 1;
     background-color: #474a4f;
 }
+/* break points */
+@media only screen and (min-width: 800px) {
+    .carousel-cell {
+        height: 600px;
+    }
+    .aboutMe {
+        text-align: justify;
+        text-indent: 50px;
+    }
+}
+/* break points */
 .close {
     color: #87c232;
 }
@@ -53,33 +64,21 @@
 .contactLogos {
     margin: 1vw;
 }
-.contactLogos:hover {
-    animation-name: spin;
-    animation-duration: 750ms;
-    animation-timing-function: linear;
-}
-.contactLogos:not(:hover) {
-    animation-name: spin2;
-    animation-duration: 750ms;
-    animation-timing-function: linear;
-    animation-direction: alternate;
+
+.contactLogos {
+    -webkit-transition:all 0.5s ease-out;
+    -moz-transition:all 0.5s ease-out;
+    -ms-transition:all 0.5s ease-out;
+    -o-transition:all 0.5s ease-out;
+    transition:all 0.5s ease-out;
 }
 
-@keyframes spin {
-    0% {
-        transform:rotate(0deg);
-    }
-    100% {
-        transform:rotate(360deg);
-    }
-}
-@keyframes spin2 {
-    0% {
-        transform:rotate(0deg);
-    }
-    100% {
-        transform:rotate(-360deg);
-    }
+.contactLogos:hover {
+    -webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -ms-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
+    transform:rotate(360deg);
 }
 /* button spin */
 .container {
@@ -150,14 +149,3 @@ h2 {
 }
 /* html tag modifications */
 
-/* break points */
-@media only screen and (min-width: 800px) {
-    .carousel-cell {
-        height: 600px;
-    }
-    .aboutMe {
-        text-align: justify;
-        text-indent: 50px;
-    }
-}
-/* break points */
