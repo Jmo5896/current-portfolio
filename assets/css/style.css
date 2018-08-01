@@ -23,6 +23,7 @@
     background-color: #474a4f;
     text-align: center;
     border-color: transparent;
+    margin: 1vh;
     opacity: .75;
 }
 .card:hover {
@@ -103,7 +104,7 @@ opacity: 1;
 fill: #618930;
 }
 .flickity-page-dots {
-    bottom: 0px;
+    bottom: -3vh;
 }
 .flickity-page-dots .dot {
     width: 12px;
@@ -121,7 +122,9 @@ fill: #618930;
 .modal-body {
     color: whitesmoke;
 }
-
+.modal-title {
+    color: whitesmoke;
+}
 .symbols2 {
     height: 150px;
     width: 150px;
