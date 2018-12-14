@@ -1,360 +1,391 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <!-- Flickity(carousel plugin) -->
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>About me</title>
-  </head>
-  
-  <body class="bg">
-    
-    <!-- Header section -->
-    <br>
-     <header><h1>Justin Moore</h1></header>
-    <br>
-    <!-- Header section -->
-    <!-- Carousel -->
-    <div class="carousel" data-flickity='{ "wrapAround": true, "adaptiveHeight": true }'>
-        <div class="carousel-cell">
-          <!-- main content section -->
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <br>
-                <h2>About Me</h2>
-                <br>
-              </div>
-            </div>
-      
-            <div class="row mx-auto">
-              <div class="col-md-3">
-                <img src="assets/images/prof_pic2.jpg" alt="picture of Justin" class="img-thumbnail rounded-circle">
-              </div>
-              <div class="col-md-9">
-                <h4><p class="aboutMe">I am a reliable and inventive Entry Level Web Developer with a strong customer service record and unyielding work ethic. Highly knowledgeable in a comprehensive variety of computer languages, website construction mechanics as well as continued maintenance. Skillfully adept at conveying technical information in presentation settings with small and large groups. Able to focus on the bigger picture in terms of goals with a step by step process in which to achieve desired results.</p></h4>                  
-                <br>
-                <br>
-                <h4><p class="aboutMe">For more on my professional career please take a look at my <a href="./assets/images/Resume.pdf">resume</a>.</p></h4>
-              </div>
-            </div>
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <!-- Flickity(carousel plugin) -->
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>About me</title>
+</head>
+
+<body class="bg">
+
+  <!-- Header section -->
+  <br>
+  <header>
+    <h1>Justin Moore</h1>
+  </header>
+  <br>
+  <!-- Header section -->
+  <!-- Carousel -->
+  <div class="carousel" data-flickity='{ "wrapAround": true, "adaptiveHeight": true }'>
+    <div class="carousel-cell">
+      <!-- main content section -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <br>
+            <h2>About Me</h2>
+            <br>
           </div>
-          <!-- main content section -->
         </div>
-        <div class="carousel-cell">
-          <!-- Portfolio content section -->
-          <div class="container">
-            <div class="row">                    
-              <div class="col-md-12">
-                <br>
-                <h2>My Projects (click a picture for more information)</h2>
-                <br>
-              </div> 
-            </div>                         
-            <div class="flex-container mx-auto">
-              <!-- modal body book -->
-              <a data-toggle="modal" data-target="#bodyBook" class="card rounded p-2 mx-auto">
-                <img class = 'w-100 h-100 rounded' src="./assets/images/Body-Book.png">
-                <h4 class="card-title">Body Book</h4>   
-              </a>     
-              <!-- modal body book -->
 
-              <!-- <div class="col-md-4">
-                <a href = ''><img class = 'portPics rounded' src="./assets/images/technics-q-c-640-480-2.jpg"></a>
-                <div class="card-img-overlay text-white">
-                  <h5 class="card-title">Trivia Game</h5>   
-                </div>
-              </div> -->
-              
-              <!-- modal Train Scheduler -->
-              <a  data-toggle="modal" data-target="#trainSheduler" class="card rounded p-2 mx-auto">
-                <img class = 'w-100 h-100 rounded' src="./assets/images/trainSchedule.png">   
-                <h4 class="card-title">Train Scheduler</h4>
-              </a>
-              <!-- modal Train Scheduler -->
-
-              <!-- modal gif tastic -->
-              <a data-toggle="modal" data-target="#gifTastic" class="card rounded p-2 mx-auto">
-                <img class = 'w-100 h-100 rounded' src="./assets/images/GifTastic.png">
-                <h4 class="card-title">GifTastic</h4>                       
-              </a>
-              <!-- modal gif tastic -->
-
-              <!-- modal Crystal Game-->
-              <a data-toggle="modal" data-target="#crystalGame" class="card rounded p-2 mx-auto">
-                <img class = 'w-100 h-100 rounded' src="./assets/images/Crystal-Collector.png">
-                <h4 class="card-title">Crystal Game</h4>                   
-              </a>
-              <!-- modal Crystal Game-->
-
-              <!-- <div class="col-md-4">
-                <a href = 'https://jmo5896.github.io/Word-Guess-Game/'><img class = 'portPics rounded' src="./assets/images/technics-q-c-640-480-7.jpg"></a>
-                <div class="card-img-overlay">
-                  <h5 class="card-title text-white">Hangman</h5>   
-                </div>                        
-              </div> -->   
-
-              <!-- modal psychic game -->
-              <!-- <a type="button" data-toggle="modal" data-target="#psychicGame" class="card pieces">
-                <img class = 'portPics rounded' src="./assets/images/technics-q-c-640-480-7.jpg">
-                <div class="card-img-overlay">
-                  <h5 class="card-title text-white">Psychic Game</h5>   
-                </div>
-              </a> -->
-              <!-- modal psychic game -->
-
-            </div>  
+        <div class="row mx-auto">
+          <div class="col-md-3">
+            <img src="assets/images/prof_pic2.jpg" alt="picture of Justin" class="img-thumbnail rounded-circle">
           </div>
-          <!-- Portfolio content section -->
+          <div class="col-md-9">
+            <h4>
+              <p class="aboutMe">I am a reliable and inventive Junior Web Developer with a strong customer service
+                record and an unyielding work ethic. Highly knowledgeable in a comprehensive variety of computer
+                languages, website construction mechanics as well as continued maintenance. Skillfully adept at
+                conveying technical information in presentation settings with small and large groups. Able to focus on
+                the bigger picture in terms of goals with a step by step process in which to achieve desired results.</p>
+            </h4>
+            <br>
+            <br>
+            <h4>
+              <p class="aboutMe">For more on my professional career please take a look at my <a href="./assets/images/Resume.pdf">resume</a>.</p>
+            </h4>
+          </div>
         </div>
-        <div class="carousel-cell">
-          <!-- skill content -->
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <br>
-                <h2>Skill Proficiencies</h2>
-                <br>
+      </div>
+      <!-- main content section -->
+    </div>
+    <div class="carousel-cell">
+      <!-- Portfolio content section -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <br>
+            <h2>My Projects (click a picture for more information)</h2>
+            <br>
+          </div>
+        </div>
+        <div class="flex-container mx-auto">
+          <!-- modal body book -->
+          <a data-toggle="modal" data-target="#bodyBook" class="card rounded p-2 mx-auto">
+            <img class='w-100 h-100 rounded' src="./assets/images/Body-Book.png">
+            <h4 class="card-title">Body Book</h4>
+          </a>
+          <!-- modal body book -->
+
+          <!-- modal bamazon -->
+          <a data-toggle="modal" data-target="#bamazon" class="card rounded p-2 mx-auto">
+            <img class='w-100 h-100 rounded' src="./assets/images/bamazon.png">
+            <h4 class="card-title">Bamazon</h4>
+          </a>
+          <!-- modal bamazon -->
+
+
+          <!-- modal Train Scheduler -->
+          <a data-toggle="modal" data-target="#trainSheduler" class="card rounded p-2 mx-auto">
+            <img class='w-100 h-100 rounded' src="./assets/images/trainSchedule.png">
+            <h4 class="card-title">Train Scheduler</h4>
+          </a>
+          <!-- modal Train Scheduler -->
+
+          <!-- modal gif tastic -->
+          <a data-toggle="modal" data-target="#gifTastic" class="card rounded p-2 mx-auto">
+            <img class='w-100 h-100 rounded' src="./assets/images/GifTastic.png">
+            <h4 class="card-title">GifTastic</h4>
+          </a>
+          <!-- modal gif tastic -->
+
+          <!-- modal Crystal Game-->
+          <!-- <a data-toggle="modal" data-target="#crystalGame" class="card rounded p-2 mx-auto">
+              <img class = 'w-100 h-100 rounded' src="./assets/images/Crystal-Collector.png">
+              <h4 class="card-title">Crystal Game</h4>                   
+            </a> -->
+          <!-- modal Crystal Game-->
+
+          <!-- <div class="col-md-4">
+              <a href = 'https://jmo5896.github.io/Word-Guess-Game/'><img class = 'portPics rounded' src="./assets/images/technics-q-c-640-480-7.jpg"></a>
+              <div class="card-img-overlay">
+                <h5 class="card-title text-white">Hangman</h5>   
+              </div>                        
+            </div> -->
+
+          <!-- modal psychic game -->
+          <!-- <a type="button" data-toggle="modal" data-target="#psychicGame" class="card pieces">
+              <img class = 'portPics rounded' src="./assets/images/technics-q-c-640-480-7.jpg">
+              <div class="card-img-overlay">
+                <h5 class="card-title text-white">Psychic Game</h5>   
               </div>
-            </div>
-            <div class="flex-container mx-auto">
-              <img class="symbols2 mx-auto" src="./assets/images/bootstrap.png" alt="Bootstrap">
-              <img class="symbols2 mx-auto" src="./assets/images/mongoDB.png" alt="MongoDB">
-              <img class="symbols2 mx-auto" src="./assets/images/node_js.png" alt="Node.js">
-              <img class="symbols2 mx-auto" src="./assets/images/mySQL.png" alt="mySQL">
-              <img class="symbols2 mx-auto" src="./assets/images/react.png" alt="React">
-            </div>
+            </a> -->
+          <!-- modal psychic game -->
+
+        </div>
+      </div>
+      <!-- Portfolio content section -->
+    </div>
+    <div class="carousel-cell">
+      <!-- skill content -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <br>
+            <h2>Skill Proficiencies</h2>
+            <br>
           </div>
-          <!-- skill content -->
         </div>
-        <div class="carousel-cell">
-          <!-- contact section -->
-          <div class="flex-container ">
-            <div class="row mx-auto">
-              <div class="col-md-12">
-                <br>
-                <h2>Contact me via email, please check me out on Linkedin and Github</h2>
-                <br>
-              </div>
-            </div> 
-            <div class="flex-container mx-auto">
-              <a href="mailto:justin.m.moore5896@gmail.com?subject=Email%20portfolio_site"><img class="contactLogos rounded " src="./assets/images/gmail.png" alt=""></a>
-              <a href="https://www.linkedin.com/in/justin-moore-3ab083158/"><img class="contactLogos rounded " src="./assets/images/linkedIn.png" alt=""></a>
-              <a href="https://github.com/Jmo5896"><img class="contactLogos rounded " src="./assets/images/gitHub.png" alt=""></a>
-            </div>
+        <div class="flex-container mx-auto">
+          <img class="symbols2 mx-auto" src="./assets/images/bootstrap.png" alt="Bootstrap">
+          <img class="symbols2 mx-auto" src="./assets/images/mongoDB.png" alt="MongoDB">
+          <img class="symbols2 mx-auto" src="./assets/images/node_js.png" alt="Node.js">
+          <img class="symbols2 mx-auto" src="./assets/images/mySQL.png" alt="mySQL">
+          <img class="symbols2 mx-auto" src="./assets/images/react.png" alt="React">
+        </div>
+      </div>
+      <!-- skill content -->
+    </div>
+    <div class="carousel-cell">
+      <!-- contact section -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <br>
+            <h2>Contact me via email, please check me out on Linkedin and Github</h2>
+            <br>
           </div>
-          <!-- contact section -->
         </div>
-    </div>
-    <!-- Carousel -->
-    
-    <!-- Modal bodyBook-->
-    <div class="modal fade" id="bodyBook" tabindex="-1" role="dialog" aria-labelledby="bodyBookTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="bodyBookTitle">Body Book</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                  </button>
-                  </div>
-                  <div class="modal-body">
-                      <p>This is one of my first full-stack projects.  My team and I wanted to build a place where you could store medical information that is important to have in an emergency situation but may be hard to recall.  For easy login use the following credentials:</p>  
-                      <p> <strong>Email:</strong> guest@guest.com <strong>Password:</strong> password</p>
-                      <p>In this project we utilized the following languages, libraries, and frameworks:</p>
-                      <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>UIkit</li>
-                        <li>Handlebars</li>
-                        <li>JavaScript</li>
-                        <li>jQuery</li>
-                        <li>Node.js</li>
-                        <li>mySQL</li>
-                        <li>Sequelize</li>
-                        <li>PassPort.js</li>
-                      </ul>
-                      <a href="https://github.com/Jmo5896/Project-2">Github-repo</a>
-                  </div>
-                  <div class="modal-footer">
-                  <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-                  <a class="btn btn-primary" href = 'https://secure-wildwood-86684.herokuapp.com/'>Visit Project</a>
-                </div>
-            </div>
+        <div class="row flex-container mx-auto">
+          <a class="mx-auto" href="mailto:justin.m.moore5896@gmail.com?subject=Email%20portfolio_site"><img class="contactLogos rounded"
+              src="./assets/images/gmail.png" alt=""></a>
+          <a class="mx-auto" href="https://www.linkedin.com/in/justin-moore-3ab083158/"><img class="contactLogos rounded"
+              src="./assets/images/linkedIn.png" alt=""></a>
+          <a class="mx-auto" href="https://github.com/Jmo5896"><img class="contactLogos rounded" src="./assets/images/gitHub.png"
+              alt=""></a>
         </div>
+      </div>
+      <!-- contact section -->
     </div>
-    <!-- Modal bodyBook-->
+  </div>
+  <!-- Carousel -->
 
-     <!-- Modal Train Scheduler-->
-     <div class="modal fade" id="trainSheduler" tabindex="-1" role="dialog" aria-labelledby="trainShedulerTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="trainShedulerTitle">Train Scheduler</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                  </button>
-                  </div>
-                  <div class="modal-body">
-                    <p>This is a project I threw together to learn how to use Firebase.  You can enter in the name of a train, it's destination, the first arrival time, and how often it makes its loop.  The app will then tell you when the next arrival will be and how many minutes away it is (in real time).</p>
-                    <p>In this project we utilized the following languages, libraries, and frameworks:</p>
-                    <ul>
-                      <li>HTML</li>
-                      <li>CSS</li>
-                      <li>Bootstrap</li>
-                      <li>JavaScript</li>
-                      <li>jQuery</li>
-                      <li>Firebase</li>
-                    </ul>
-                    <a href="https://github.com/Jmo5896/Train-Scheduler">Github-repo</a>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-                    <a class="btn btn-primary" href = 'https://jmo5896.github.io/Train-Scheduler/'>Visit Project</a>
-                </div>
-            </div>
+  <!-- Modal bodyBook-->
+  <div class="modal fade" id="bodyBook" tabindex="-1" role="dialog" aria-labelledby="bodyBookTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="bodyBookTitle">Body Book</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
         </div>
-    </div>
-    <!-- Modal Train Scheduler-->
-
-    <!-- Modal gif tastic-->
-    <div class="modal fade" id="gifTastic" tabindex="-1" role="dialog" aria-labelledby="gifTasticTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="gifTasticTitle">GifTastic</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                  </button>
-                  </div>
-                  <div class="modal-body">
-                    <p>This little project was my first attempt at utilizing an API with ajax calls in jQuery.  THe basic concept is enter in a category you want to search, when you hit add a button will be created with the category name you added.  When you click the button it will pull up the top 12 gif's in the given category.</p>
-                    <p>In this project we utilized the following languages, libraries, and frameworks:</p>
-                    <ul>
-                      <li>HTML</li>
-                      <li>CSS</li>
-                      <li>Bootstrap</li>
-                      <li>JavaScript</li>
-                      <li>jQuery</li>
-                    </ul>
-                    <a href="https://github.com/Jmo5896/GifTastic">Github-repo</a>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-                    <a class="btn btn-primary" href = 'https://jmo5896.github.io/GifTastic/'>Visit Project</a>
-                </div>
-            </div>
+        <div class="modal-body">
+          <p>This is one of my first full-stack projects. My team and I wanted to build a place where you could store
+            medical information that is important to have in an emergency situation but may be hard to recall. For easy
+            login use the following credentials:</p>
+          <p> <strong>Email:</strong> guest@guest.com <strong>Password:</strong> password</p>
+          <p>In this project we utilized the following languages, libraries, and frameworks:</p>
+          <ul>
+            <li>HTML</li>
+            <li>CSS/UIkit</li>
+            <li>Handlebars</li>
+            <li>JavaScript/jQuery</li>
+            <li>Node.js/Sequelize</li>
+            <li>mySQL</li>
+            <li>PassPort.js</li>
+          </ul>
+          <a href="https://github.com/Jmo5896/Project-2">Github-repo</a>
         </div>
-    </div>
-    <!-- Modal gif tastic--> 
-
-    <!-- Modal crystal game-->
-    <div class="modal fade" id="crystalGame" tabindex="-1" role="dialog" aria-labelledby="crystalGameTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="crystalGameTitle">Crystal Collector</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                  </button>
-                  </div>
-                  <div class="modal-body">
-                      <p>This was one of my first projects using JavaScript.  It is pretty basic but helped teach me how to randomly generate numbers while keeping a running total.  It is all front-end based with no jQuery.</p>
-                      <p>In this project I utilized the following languages, libraries, and frameworks:</p>
-                      <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Bootstrap</li>
-                        <li>JavaScript</li>
-                      </ul>
-                      <a href="https://github.com/Jmo5896/unit-4-game">Github-repo</a>
-                    </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-                    <a class="btn btn-primary" href = 'https://jmo5896.github.io/unit-4-game/'>Visit Project</a>
-                </div>
-            </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          <a class="btn btn-primary" href='https://secure-wildwood-86684.herokuapp.com/'>Visit Project</a>
         </div>
+      </div>
     </div>
-    <!-- Modal crystal game-->   
+  </div>
+  <!-- Modal bodyBook-->
 
-    <!-- Modal psychic game-->
-    <div class="modal fade" id="psychicGame" tabindex="-1" role="dialog" aria-labelledby="psychicGameTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title text-body" id="psychicGameTitle">Modal title</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                  </button>
-                  </div>
-                  <div class="modal-body">
-                      <a href = 'https://jmo5896.github.io/Psychic-Game/'>Psychic Game</a>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-                    <a class="btn btn-primary" href = 'https://jmo5896.github.io/GifTastic/'>Visit Project</a>
-                </div>
-            </div>
+  <!-- Modal Train Scheduler-->
+  <div class="modal fade" id="trainSheduler" tabindex="-1" role="dialog" aria-labelledby="trainShedulerTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="trainShedulerTitle">Train Scheduler</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
         </div>
-    </div>
-    <!-- Modal psychic game-->   
-
-    <!-- Modal -->
-    <div class="modal fade" id="" tabindex="-1" role="dialog" aria-labelledby="bodyBookTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="bodyBookTitle">Modal title</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                  </button>
-                  </div>
-                  <div class="modal-body">
-                      <a href = 'https://secure-wildwood-86684.herokuapp.com/'>body book</a>
-                  </div>
-                  <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
-            </div>
+        <div class="modal-body">
+          <p>This is a project I threw together to learn how to use Firebase. You can enter in the name of a train,
+            it's destination, the first arrival time, and how often it makes its loop. The app will then tell you when
+            the next arrival will be and how many minutes away it is (in real time).</p>
+          <p>In this project we utilized the following languages, libraries, and frameworks:</p>
+          <ul>
+            <li>HTML</li>
+            <li>CSS/Bootstrap</li>
+            <li>JavaScript/jQuery</li>
+            <li>Firebase</li>
+          </ul>
+          <a href="https://github.com/Jmo5896/Train-Scheduler">Github-repo</a>
         </div>
-    </div>
-    <!-- Modal -->   
-
-    <!-- Modal -->
-    <div class="modal fade" id="" tabindex="-1" role="dialog" aria-labelledby="bodyBookTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="bodyBookTitle">Modal title</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                  </button>
-                  </div>
-                  <div class="modal-body">
-                      <a href = 'https://secure-wildwood-86684.herokuapp.com/'>body book</a>
-                  </div>
-                  <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
-            </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          <a class="btn btn-primary" href='https://jmo5896.github.io/Train-Scheduler/'>Visit Project</a>
         </div>
+      </div>
     </div>
-    <!-- Modal -->   
+  </div>
+  <!-- Modal Train Scheduler-->
 
-   <!-- <footer><h2>footer</h2></footer> -->
+  <!-- Modal gif tastic-->
+  <div class="modal fade" id="gifTastic" tabindex="-1" role="dialog" aria-labelledby="gifTasticTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="gifTasticTitle">GifTastic</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>This little project was my first attempt at utilizing an API with ajax calls in jQuery. The basic concept
+            is to enter a category you want to search for and when you hit "add" a button will be created with the
+            category's name you want to search. When you click the button it will pull up the top 12 gifs in the given
+            category.</p>
+          <p>In this project we utilized the following languages, libraries, and frameworks:</p>
+          <ul>
+            <li>HTML</li>
+            <li>CSS/Bootstrap</li>
+            <li>JavaScript/jQuery</li>
+          </ul>
+          <a href="https://github.com/Jmo5896/GifTastic">Github-repo</a>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          <a class="btn btn-primary" href='https://jmo5896.github.io/GifTastic/'>Visit Project</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal gif tastic-->
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-    <script type="text/JavaScript" src="./assets/javascript/logic.js"></script>
-  </body>
+  <!-- Modal crystal game-->
+  <div class="modal fade" id="crystalGame" tabindex="-1" role="dialog" aria-labelledby="crystalGameTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="crystalGameTitle">Crystal Collector</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>This was one of my first projects using JavaScript. It is pretty basic but helped me learn how to randomly
+            generate numbers while keeping a running total. It is all front-end based with no jQuery.</p>
+          <p>In this project I utilized the following languages, libraries, and frameworks:</p>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Bootstrap</li>
+            <li>JavaScript</li>
+          </ul>
+          <a href="https://github.com/Jmo5896/unit-4-game">Github-repo</a>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          <a class="btn btn-primary" href='https://jmo5896.github.io/unit-4-game/'>Visit Project</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal crystal game-->
+
+  <!-- Modal psychic game-->
+  <div class="modal fade" id="psychicGame" tabindex="-1" role="dialog" aria-labelledby="psychicGameTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-body" id="psychicGameTitle">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <a href='https://jmo5896.github.io/Psychic-Game/'>Psychic Game</a>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          <a class="btn btn-primary" href='https://jmo5896.github.io/GifTastic/'>Visit Project</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal psychic game-->
+
+  <!-- Modal bamazon -->
+  <div class="modal fade" id="bamazon" tabindex="-1" role="dialog" aria-labelledby="bamazonTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="bamazonTitle">Bamazon</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>The original purpose of this project was to teach me mySQL and to make a working back-end application that
+            will be able to track inventory and organize products. I created three different views for the data:
+            customer, manager, and supervisor. This project is completely on the back-end so please check out the
+            Readme in the Github repo.</p>
+          <p>In this project I utilized the following languages, libraries, and frameworks:</p>
+          <ul>
+            <li>JavaScript</li>
+            <li>Node.js</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          <a class="btn btn-primary" href='https://github.com/Jmo5896/Bamazon'>Visit Github-repo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="" tabindex="-1" role="dialog" aria-labelledby="bodyBookTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="bodyBookTitle">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <a href='https://secure-wildwood-86684.herokuapp.com/'>body book</a>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->
+
+  <!-- <footer><h2>footer</h2></footer> -->
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script type="text/JavaScript" src="./assets/javascript/logic.js"></script>
+</body>
+
 </html>
